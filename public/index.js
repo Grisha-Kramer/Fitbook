@@ -1,3 +1,8 @@
+module.exports = {
+  workout: require("./workout")
+}
+
+
 init();
 
 async function init() {
