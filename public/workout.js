@@ -1,3 +1,23 @@
+const mongoose = require("mongoose")
+const storage = mongoose.storage
+
+const wostorage = new Schema({
+  day: {type: Date, default: Date.now },
+  exercises: [
+    {
+      type: { type: String, required: true },
+      name: String,
+      reps: Number,
+      weight: Number,
+      distance: Number
+    }
+  ]
+})
+
+const wo = mongoose.model("wo", wostorage)
+
+module.exports = wo
+
 async function initWorkout() {
   const lastWorkout = await API.getLastWorkout();
   console.log("Last workout:", lastWorkout);
