@@ -14,7 +14,7 @@ app.use(express.static("public"))
 require("./routes/apiroutes")(app) 
 require("./routes/htmlroutes")(app) 
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://<user>:<password1>@ds133086.mlab.com:33086/heroku_np35knxx", {
   useNewUrlParser: true
 }) 
 
