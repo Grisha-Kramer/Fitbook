@@ -156,7 +156,7 @@ function populateChart(data) {
       labels: workouts,
       datasets: [
         {
-          label: "Excercises Performed",
+          label: "Exercises Performed",
           backgroundColor: colors,
           data: pounds.exercise
         }
@@ -165,7 +165,7 @@ function populateChart(data) {
     options: {
       title: {
         display: true,
-        text: "Excercises Performed"
+        text: "Exercises Performed"
       }
     }
   });
