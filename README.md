@@ -21,7 +21,6 @@ I want to be able to track my workouts to maximize efficiency
 So that I can work out more effectively.
 
 
-
 | Technologies used:                                                                        |
 | ----------------------------------------------------------------------------------------- |
 | MongoDB, Mongoose, Express, Node.js, JavaScript, HTML, CSS
