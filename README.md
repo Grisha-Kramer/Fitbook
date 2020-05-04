@@ -3,6 +3,8 @@
 
 A fitness calculator that lets people track and total their exercises.
 
+# Demo
+
 ![](Fitness_Tracker.gif)
 
 
